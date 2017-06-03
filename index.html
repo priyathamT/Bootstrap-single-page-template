@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>bootstrap</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="10">
+
+    <!-- Navigation -->
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+
+    <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                  <a class="navbar-brand" href="#">
+                      <!-- <img alt="brand" src="icon.png" class="icon"> -->
+                      <i class="fa fa-cutlery" aria-hidden="true"></i>
+                  </a>
+            </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Resources<span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="#services">Services</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#contact">Contact</a></li>
+                      </ul>
+                </li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+   
+</nav>
+
+  
+
+    <!-- Gallery -->
+<section id="home">
+<div class="container-fluid gallery">
+<div class="row">
+    <div class="col-lg-4 col-md-4 col-sm-6">
+        <a class="thumbnail">
+            <img class="img-responsive" data-toggle="modal" data-target="#pizza" src="img/pizza.jpg"/>
+            <p>How to make Pizza</p>
+        </a>    
+    </div>
+
+    <!-- Modal -->
+  <div class="modal fade" id="pizza" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">How To Make Delicious Pizza</h4>
+        </div>
+        <div class="modal-body">
+          <img class="img-responsive" src="img/pizza.jpg"/>
+        </div>
+        <div class="modal-footer">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempor eleifend enim ac laoreet. Nam congue dui vitae quam vestibulum bibendum quis sit amet purus.
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#readMore">Read More</button></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+   <div class="col-lg-4 col-md-4 col-sm-6 ">
+        <a class="thumbnail">
+            <img class="img-responsive" data-toggle="modal" data-target="#donuts" src="img/donuts.jpg"/>
+            <p>How to make Donuts</p>
+        </a>    
+    </div>
+
+    <!-- Modal -->
+  <div class="modal fade" id="donuts" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">How To Make Donuts</h4>
+        </div>
+        <div class="modal-body">
+          <img class="img-responsive" src="img/donuts.jpg"/>
+        </div>
+        <div class="modal-footer">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempor eleifend enim ac laoreet. Nam congue dui vitae quam vestibulum bibendum quis sit amet purus.
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#readMore">Read More</button></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+   <div class="col-lg-4 col-md-4 col-sm-6 cookies">
+        <a class="thumbnail">
+            <img class="img-responsive" data-toggle="modal" data-target="#cookies" src="img/cookies.jpg"/>
+            <p>How to make cookies</p>
+        </a>    
+    </div>
+
+    <!-- Modal -->
+  <div class="modal fade" id="cookies" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">How To Make cookies</h4>
+        </div>
+        <div class="modal-body">
+          <img class="img-responsive" src="img/cookies.jpg"/>
+        </div>
+        <div class="modal-footer">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempor eleifend enim ac laoreet. Nam congue dui vitae quam vestibulum bibendum quis sit amet purus.
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#readMore">Read More</button></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="row">
+   <div class="col-lg-4 col-md-4 col-sm-6 cinnamon">
+        <a class="thumbnail">
+            <img class="img-responsive" data-toggle="modal" data-target="#cinnamonrolls" src="img/cinnamonrolls.jpg"/>
+            <p>How to make CinnamonRolls</p>
+        </a>    
+    </div>
+    <!-- Modal -->
+  <div class="modal fade" id="cinnamonrolls" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">How To Make Cinnamonrolls</h4>
+        </div>
+        <div class="modal-body">
+          <img class="img-responsive" src="img/cinnamonrolls.jpg"/>
+        </div>
+        <div class="modal-footer">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempor eleifend enim ac laoreet. Nam congue dui vitae quam vestibulum bibendum quis sit amet purus.
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#readMore">Read More</button></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+   <div class="col-lg-4 col-md-4 col-sm-6 ">
+        <a class="thumbnail">
+            <img class="img-responsive" data-toggle="modal" data-target="#bread" src="img/bread.jpg"/>
+            <p>How to make Bread</p>
+        </a>    
+    </div>
+
+    <!-- Modal -->
+  <div class="modal fade" id="bread" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">How To Make Bread</h4>
+        </div>
+        <div class="modal-body">
+          <img class="img-responsive" src="img/bread.jpg"/>
+        </div>
+        <div class="modal-footer">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempor eleifend enim ac laoreet. Nam congue dui vitae quam vestibulum bibendum quis sit amet purus.
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#readMore">Read More</button></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+   <div class="col-lg-4 col-md-4 col-sm-6">
+        <a class="thumbnail">
+            <img class="img-responsive" data-toggle="modal" data-target="#myModal" src="img/redvelvetcake.jpg"/>
+            <p>How to make Cup Cakes</p>
+        </a>    
+    </div>
+  
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">How To Make Redvelvet Cake</h4>
+        </div>
+        <div class="modal-body">
+          <img class="img-responsive" src="img/redvelvetcake.jpg"/>
+        </div>
+        <div class="modal-footer">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempor eleifend enim ac laoreet. Nam congue dui vitae quam vestibulum bibendum quis sit amet purus.
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#readMore">Read More</button></p>
+        </div>
+      </div>
+    </div>
+  </div>
+    
+</div>
+</div>
+</section>
+
+<!-- About  -->
+<section class="about" id="about">
+<div class="container-fluid">
+<div class="row">
+    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+        <img src="img/user.png" class="img-circle img-responsive" alt="Cinque Terre" width="304" height="236"> 
+    </div>
+
+    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+        <h2 class="h2">About</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempor eleifend enim ac laoreet. Nam congue dui vitae quam vestibulum bibendum quis sit amet purus. Nulla pellentesque odio et porttitor vulputate. In aliquam mollis dui nec tempus. Maecenas eget imperdiet arcu, a faucibus quam. Nullam nec elit lectus. Nunc ac mi a risus varius viverra.</p>
+    </div>
+</div>
+</div>
+</section>
+
+<!-- Resources -->
+<section class="resources">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-6" id="resources">
+            <div class="box">
+            <div class="textwidget">
+                <i class="fa fa-cog fa-spin fa-3x fa-fw"></i>
+                    <span class="sr-only">Loading...</span>
+                <h3 class="text-center">Services</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempor eleifend enim ac laoreet.Nulla pellentesque odio et porttitor vulputate. In aliquam mollis dui nec tempus. Maecenas eget imperdiet arcu, a faucibus quam. Nullam nec elit lectus. Nunc ac mi a risus varius viverra.</p>
+            </div>
+            </div>
+            </div>
+
+            <div class="col-lg-6 col-md-6" id="services">
+            <div class="box">
+            <div class="textwidget">
+                <i class="fa fa-envelope-open-o" aria-hidden="true"></i>
+                <h3 class="text-center">Contact</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempor eleifend enim ac laoreet.Nulla pellentesque odio et porttitor vulputate. In aliquam mollis dui nec tempus. Maecenas eget imperdiet arcu, a faucibus quam. Nullam nec elit lectus. Nunc ac mi a risus varius viverra.</p>
+            </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<section class="footer">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-6">
+                <span class="navbar-text">&copy; Designed By </span>
+            </div>
+
+            <div class="col-lg-6 col-md-6 col-sm-6">
+                <h2>Follow Us</h2>
+                <a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+                <form>
+                    <div class="input-group">
+                      <input type="text" class="form-control" id="email" placeholder="your@gmail.com">
+                      <div class="input-group-btn">
+                        <button class="btn btn-primary" type="submit">Subscribe</button>
+                      </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+	<script src="js/jquery.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+</body>
+</html>

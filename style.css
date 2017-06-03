@@ -1,0 +1,145 @@
+/*
+ * Start Bootstrap - SamplePortfolio
+ */
+
+/* Global Styles */
+
+body {
+    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+    min-height: 1700px;
+    padding-top: 70px;
+}
+
+
+/* Nav Styles*/
+
+.navbar-brand .fa{
+    /*position: absolute;
+    max-height: 40px;
+    max-width: 50px;*/ /*when we use image*/
+    font-size: 30px !important;
+    color: rgb(210, 216, 224);
+}
+
+.navbar,
+.dropdown-menu{
+    background-color: rgba(0,0,0,0.5);
+}
+
+.navbar-default .navbar-nav>li>a,
+.dropdown-menu>li>a  {
+    color: #fff;
+}
+
+/*Gallery*/
+
+.gallery{
+    min-height: 650px;
+    /*padding-bottom: 70px;*/
+    background: linear-gradient(to bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.8)),
+                url('img/gallerybackground.jpg') no-repeat;
+    background-size: cover; 
+}
+
+/*.img-responsive:hover{
+    opacity: 0.7;
+    
+}*/
+
+.thumbnail {
+    opacity: 1;
+    transition: .5s;
+    width: 100%;
+    height: 100%;
+}
+.thumbnail:hover {
+    opacity: 0.7;
+}
+
+.about{
+    min-height: 400px;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.img-circle{
+   /* position: absolute;*/
+   margin-top: 50px;
+}
+
+.about .row>div>p {
+    margin-top: 20px;
+    font-size: 1.8em;
+    color: #ffffff;
+}
+
+.about .row>div>img {
+    opacity:1;
+    background-color: rgba(0,77,128,0.5);
+}
+
+.h2{
+    text-align: center;
+    color: #fff;
+    text-decoration: underline;
+}
+
+
+@media (min-width: 769px) and (max-width: 991px) { 
+    .cookies {
+        margin-left: 0;
+        clear: left;
+    }
+
+}
+
+.textwidget {
+    text-align: center;
+    background: #fff;
+    margin-bottom: 30px;
+}
+
+.textwidget .fa{
+  font-size: 90px !important;
+  margin-bottom: 10px;
+}
+
+
+.box{
+  padding: 15px;
+  border: #ccc 1px solid;
+}
+
+.resources{
+    margin-top: 10px;
+}
+
+/*Footer*/
+
+.navbar-text{
+    font-size: 20px;
+    font-weight: 15px;
+}
+
+.footer{
+    min-height: 260px;
+    background: rgb(0,0,0);
+    color: #fff;
+    margin-top: 12px;
+}
+
+.footer a{
+    font-size: 30px !important;
+    padding: 5px;
+}
+
+.fa-facebook-square{
+    color: rgb(59,89,152);
+}
+
+.fa-linkedin-square{
+    color: rgb(72,117,180);
+}
+
+.fa-twitter-square{
+    color: rgb(0,172,237);
+}
